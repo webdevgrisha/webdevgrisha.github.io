@@ -1,0 +1,58 @@
+body{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+.form{
+	width:260px;
+	height: 340px; 
+	border :1px solid gray;
+	display: inline-block;
+	margin-top: 91px;
+	margin-left: 117px;
+	padding-left:29px;
+	padding-right: 30px;
+	padding-bottom: 30px;	   
+}
+.account{
+	width: 150px;
+	height: 25px;
+	background:#01b3b3;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.create{
+	color:#ffffff;
+	display: inline-block;
+    margin-left:8px;
+    margin-top: 6px;
+}
+.email{
+    margin-top: 25px;
+}
+.input-email{
+	height: 25px;
+	width: 248px;
+	padding-left: 10px;
+	font-style: italic;
+}
+.password{
+	margin-top: 18px;
+}
+.btn{
+	width: 260px;
+	height: 45px;
+	background-color:#01b3b3;
+	margin-top: 35px;
+	border:solid #06bfbf;
+	border-radius: 5px;
+}
+.now{
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+	letter-spacing:1px;
+}
+
+
