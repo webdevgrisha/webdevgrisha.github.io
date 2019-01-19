@@ -16,9 +16,7 @@
 .cd-btn {
 	margin-top: 50px;
 }
-.cd-modal-content{
-	background:  url() center center;
-}
+
 /*Стили модального окна*/
 .cd-modal {
   position: fixed;
