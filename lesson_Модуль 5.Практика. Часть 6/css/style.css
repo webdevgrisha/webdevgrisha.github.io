@@ -357,7 +357,7 @@ section {
 }
 @media (max-width: 500px) {
   .main-title h1 {
-    font-size: 3.8rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 440px) {
