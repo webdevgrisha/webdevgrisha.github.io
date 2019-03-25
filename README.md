@@ -36,4 +36,4 @@ https://webdevgrisha.github.io/lesson_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%205.%
 
 [Модуль6.Практика.Часть 7](https://webdevgrisha.github.io/lesson_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%206.%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%207/ "Моя готовая домашка") - Верстка блока с отзывами
 
-[Урок 20](https://webdevgrisha.github.io/lesson_20/ "Моя готовая домашка") - Видео-фон на сайте.
+[Урок 20](https://webdevgrisha.github.io/lesson_20/src9/ "Моя готовая домашка") - Видео-фон на сайте.
