@@ -44,4 +44,4 @@ https://webdevgrisha.github.io/lesson_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%205.%
 
 [Модуль6.Практика.Часть 9](https://webdevgrisha.github.io/lesson_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%206.%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%209/ "Моя готовая домашка") - Верстаем схему работы и все включено
 
-[Урок 2](https://webdevgrisha.github.io/lesson_22/src11/ "Моя готовая домашка") - Гео-карты для сайта.
+[Урок 22](https://webdevgrisha.github.io/lesson_22/src11/ "Моя готовая домашка") - Гео-карты для сайта.
