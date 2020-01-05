@@ -57,4 +57,4 @@ https://webdevgrisha.github.io/lesson_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%205.%
 
 
 
-[Webdesign](https://github.com/webdevgrisha/webdevgrisha.github.io/tree/master/WebDevBlog css grid и flex box") - Первый сайт на css grid и flex box
+[Webdesign]( css grid и flex box") - Первый сайт на css grid и flex box
