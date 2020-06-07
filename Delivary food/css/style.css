@@ -76,6 +76,7 @@ button {
     color: #595959;
     font-size: 16px;
     line-height: 24px;
+    transition: 0.3s;
 }
 
 .button:hover {
@@ -90,6 +91,7 @@ button {
     border: 1px solid #1890ff;
     color: #fff;
     margin-right: 10px;
+    transition: 0.3s;
 }
 
 .button-primary:hover {
@@ -130,6 +132,7 @@ button {
     -webkit-mask: url("../img/icon/shopping-cart.svg") no-repeat 50% 50%;
     mask: url("../img/icon/shopping-cart.svg") no-repeat 50% 50%;
     background-repeat: no-repeat;
+    transition: 0.3s;
 }
 
 .button-primary .button-cart-svg {
@@ -147,11 +150,12 @@ button {
 .button-cart {
     display: none;
     margin: 0 5px;
+    transition: 0.3s;
 }
-
 .button-out {
     display: none;
     margin: 0 5px;
+    transition: 0.3s;
 }
 
 .user-name {
@@ -242,7 +246,11 @@ button {
     margin-bottom: 30px;
     flex-basis: 31%;
     text-decoration: none;
-
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    margin-top: -5px;
 }
 
 .card-restaurant {
@@ -255,15 +263,12 @@ button {
     object-fit: cover;
 }
 
-
 .card-text {
     padding: 20px 23px 35px;
     min-height: 275px;
     display: flex;
     flex-direction: column;
 }
-
-
 
 .restaurants .card-text {
     min-height: auto;
@@ -389,6 +394,10 @@ button {
     font-size: 18px;
     line-height: 21px;
     text-decoration: none;
+    transition: 0.3s;
+}
+.footer-link:hover{
+    text-decoration: underline;
 }
 
 .footer-link:not(:last-child) {
@@ -529,6 +538,7 @@ button {
     font-size: 14px;
     line-height: 22px;
     color: #40a9ff;
+    transition: 0.3s;
 }
 
 .counter-button:hover {
