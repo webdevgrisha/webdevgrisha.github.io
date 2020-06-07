@@ -1,0 +1,701 @@
+/* Fonts family */
+@font-face {
+  font-family: 'HelveticaNeueCyr_reg';
+  src: url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr_bold';
+  src: url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr_roman';
+  src: url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Basic setting */
+iframe{
+  width: 100% !important;
+  height: 315px;
+  border: none;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+}
+/* Colors */
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+/* Оформление кнопки */
+.button {
+  background-color: #94ca2d;
+  padding: 1.7rem 5rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1.7rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #85b528;
+}
+/* Оформление формы */
+.form {
+  background: #000;
+  border: 4px solid #21a3af;
+  border-radius: 3px;
+  padding: 4rem 6rem 3rem 6rem;
+  text-align: center;
+  max-width: 40.5rem;
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+}
+.form-title {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  color: #fff;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+}
+.form-input {
+  font-family: 'HelveticaNeueCyr_roman', sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+  width: 100%;
+  padding: 1.5rem 0 1.5rem 2.5rem;
+  background-color: #000;
+  border: 0.2rem solid #fff;
+  border-radius: 3px;
+  margin-bottom: 0.7rem;
+}
+.form .form-input::placeholder {
+  color: white;
+  opacity: 1;
+}
+.form-btn {
+  width: 100%;
+  font-weight: 500;
+  margin: 0.3rem 0 1rem 0;
+}
+.form small {
+  font-family: 'HelveticaNeueCyr_roman', sans-serif;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-top: 5px;
+}
+/* Оформление модальных окн */
+.popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  z-index: 9;
+}
+.popup-close {
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  width: 4rem;
+  height: 4rem;
+  border: 4px solid #21a3af;
+  border-radius: 50%;
+  font-size: 2rem;
+  vertical-align: middle;
+  color: #21a3af;
+  background-color: #000;
+}
+.popup-close:hover {
+  cursor: pointer;
+  color: #27bfcd;
+  border: 4px solid #27bfcd;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-form {
+  border-radius: 10px;
+}
+.popup-form-video {
+  padding: 0;
+  max-width: none;
+}
+.box:before {
+  content: '';
+  position: absolute;
+  top: 27rem;
+  right: 7rem;
+  height: 4rem;
+  width: 4rem;
+  background: #000000 url(../img/down.png) center center no-repeat;
+}
+/* Оформление шапки */
+.header {
+  padding: 2rem 0 1rem 0;
+  background: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+}
+.header-2 {
+  background: #000;
+}
+.logo-img {
+  padding: 0rem 1.5rem 0 0;
+  vertical-align: baseline;
+}
+.logo-text {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: white;
+  display: inline-block;
+}
+.phone-number {
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 0.1rem;
+}
+.phone-link {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 1.9rem;
+  color: #94ca2d;
+  margin-left: 0.4rem;
+  font-weight: 500;
+}
+.phone-link:hover {
+  cursor: pointer;
+  color: #75a024;
+}
+.main {
+  background: #ffffff url(../img/main-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.main-fon {
+  background: url(../img/fon.png) center center no-repeat;
+  background-size: cover;
+}
+.main-title h1 {
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  margin: 11rem 0 0 0;
+  font-size: 3.7rem;
+  color: white;
+  line-height: 1.3;
+}
+.main-subtitle h2 {
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  margin: 0.5rem 0 2.5rem 0;
+  font-size: 3rem;
+  color: white;
+}
+.main-content {
+  background: url(../img/bg-phone.png) 63rem 22rem no-repeat,
+              url(../img/bg-phone.webp) 63rem 22rem no-repeat;
+}
+.main-img {
+  margin: 4rem 0 3rem -2rem;
+}
+/* VR-set */
+.set {
+  background: url(../img/slash.png) center bottom repeat-x;
+  background-color: #f8f8f0;
+}
+.set-title h2 {
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-top: 10rem ;
+}
+.set-title p {
+  font-family: 'HelveticaNeueCyr_roman', sans-serif;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  text-align: left;
+}
+.set-img {
+  margin-top: 10rem;
+}
+.set-price {
+  font-family: 'HelveticaNeueCyr_roman', sans-serif;
+  font-size: 1.6rem;
+  margin-top: -15rem;
+}
+.set-price h3 {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0 0 1rem 1rem;
+}
+.set-price ul {
+  list-style-type: none;
+  padding: 0;
+  /* Убираем поля */
+  margin-left: 0px;
+  /* Отступ слева */
+}
+.set-1 {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.set .set-1-price strong {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  margin-left: 0.5rem;
+  color: #b61919;
+  font-size: 2.3rem;
+}
+.set .set-1-price p {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 2rem;
+}
+.set-1 ul {
+  margin-bottom: 3.3rem;
+}
+.set-2 {
+  display: inline-block;
+  margin-left: 3rem;
+}
+.set-btn {
+  margin-bottom: 7rem;
+  box-shadow: 0px 4px 0px 0px rgba(118, 174, 12, 0.8);
+}
+.set-btn:hover {
+  box-shadow: 0px 4px 0px 0px #76ae0c;
+}
+/*  Возможности VR 2 №1 */
+.opportunities-1 {
+  margin-top: 6rem;
+}
+.opportunities-1 .film img {
+  margin: 0 0 -7rem -5rem;
+}
+.opportunities-title {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.opportunities-text {
+  font-family: 'HelveticaNeueCyr_roman', sans-serif;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+}
+.opportunities-2 {
+  margin-bottom: 6rem;
+}
+.opportunities-2 .shark img {
+  margin-left: 4rem;
+  margin-top: -5rem;
+}
+.opportunities-2 .travel img {
+  margin: 0 0 -7rem -5rem;
+}
+.opportunities .crystal-1 {
+  position: absolute;
+  right: 50rem;
+  margin-top: 30rem;
+}
+.opportunities .crystal-2 {
+  position: absolute;
+  left: 78rem;
+  margin-top: 24rem;
+}
+/* Оформление секции Order */
+.order {
+  background:  url(../img/order/order-bg.jpg) center center no-repeat,
+               url(../img/order/order-bg.webp) center center no-repeat;
+  background-size: cover;
+  max-height: 43rem;
+  padding: 2.5rem 0 2.5rem 0;
+}
+.order-title {
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  font-size: 3.8rem;
+  color: #fff;
+  margin: 6.5rem 0 2.3rem 0rem;
+  line-height: 1;
+}
+.order-line {
+  background: #18a7d0;
+  width: 50rem;
+  border-radius: 3px;
+}
+.order-text p {
+  color: #fff;
+  font-size: 1.7rem;
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  padding: 0.5rem 0rem 0.5rem 2rem;
+}
+.order .delta {
+  height: 6.2rem;
+  position: absolute;
+  left: 51.3rem;
+  top: 16.3rem;
+}
+.order .notes {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  margin: 4rem 0 0 0;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.order .notes-1 {
+  display: inline-block;
+}
+.order .notes-1-text {
+  display: inline-block;
+}
+.order .notes-2 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 2rem;
+}
+.order .notes-2-text {
+  display: inline-block;
+}
+.order .notes-img {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0.5rem 0.5rem 0 0;
+}
+/* Возможности VR 2 №2 */
+.opportunities-two {
+  padding: 1px;
+  background: url(../img/slash.png) center bottom repeat-x;
+}
+.opportunities-two .extreme {
+  margin-top: 11rem;
+}
+.opportunities-two .extreme-img {
+  margin-top: -6rem;
+}
+.opportunities-two .opportunities-game {
+  margin-top: 10rem;
+}
+.opportunities-two .crystal-3 {
+  position: absolute;
+  left: 65rem;
+  margin-top: 30rem;
+}
+.opportunities-two .crystal-4 {
+  position: absolute;
+  right: 68rem;
+  margin-top: 10rem;
+}
+/* Work*/
+.work {
+  padding: 3rem 0 15rem 0 ;
+  background: #ffffff url(../img/work/bg-work.png) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.work-title {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-weight: 900;
+  font-size: 3.4rem;
+  text-align: center;
+}
+.work-title::after {
+  content: '';
+  display: block;
+  background-color: #18a7d0;
+  margin-top: 1.5rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.8rem;
+  width: 5.6rem;
+  height: 0.5rem;
+}
+.work .media {
+  display: inline-block;
+  text-align: center;
+  margin-top: -2.5rem;
+}
+.work .media .circle {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #18a7d0;
+}
+.work .media .circle-border {
+  display: inline-block;
+  width: 7rem;
+  height: 7rem;
+  padding: 0.5rem;
+  border: 3px solid #18a7d0;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  line-height: 5.5rem;
+  color: #fff;
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  font-size: 3.5rem;
+}
+.work-text p {
+  font-family: 'HelveticaNeueCyr_roman', sans-serif;
+  margin-top: 2rem;
+  line-height: 2rem;
+  font-size: 1.6rem;
+}
+.work-img {
+  margin-top: 8rem;
+  padding: 0 2rem;
+}
+.work-img-vr {
+  margin-top: 12rem;
+}
+.work-img-man {
+  margin-top: 7rem;
+}
+/* compatibility vr 2 */
+.compatibility {
+  padding-bottom: 6rem;
+}
+.compatibility .cristal-5 {
+  position: absolute;
+  right: 0;
+}
+.compatibility-title h2 {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: left;
+  margin: 8rem 0 5rem 0;
+}
+.compatibility .telefon {
+  display: inline-block;
+  margin-right: 4.5rem;
+}
+.compatibility .telefon-text p {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+.compatibility-vr {
+  margin-top: -4rem;
+}
+.compatibility-vr-text {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  text-align: left;
+  font-size: 2.1rem;
+  margin-top: 1.5rem;
+}
+/* Video */
+.video {
+  background-size: cover;
+  padding: 8rem;
+}
+.video-title {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+.video .play {
+  text-align: center;
+}
+.video .play-img {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.video .play-btn {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  display: block;
+  color: #fff;
+  font-size: 2rem;
+}
+.video .play-btn:hover {
+  color: #cccccc;
+}
+/* Games*/
+.games {
+  padding: 9rem 0 8rem 0;
+  background: url(../img/slash.png) center bottom repeat-x;
+}
+.games-title {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 1000;
+  margin-bottom: 5rem;
+}
+.games-title::after {
+  content: '';
+  display: block;
+  background-color: #18a7d0;
+  margin-top: 1rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.8rem;
+  width: 5.6rem;
+  height: 0.5rem;
+}
+.games .stores {
+  text-align: center;
+}
+.games-img {
+  margin: 2rem 0 3rem -11rem;
+}
+.games .shooter {
+  margin-top: 4.5rem;
+}
+.games .shooter-title {
+  margin-top: -1.4rem;
+}
+.games .game-title h3 {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 2.2rem;
+}
+.games-text {
+  margin-top: 1rem;
+  font-family: 'HelveticaNeueCyr_roman', sans-serif;
+  font-size: 1.6rem;
+}
+.games-btn {
+  margin-top: 4rem;
+  text-align: center;
+}
+/* Reviews */
+.reviews {
+  padding: 10rem 0 9rem 0;
+  background: #f8f8f0 url(../img/slash.png) center bottom repeat-x;
+  position: relative;
+}
+.reviews .cristal-6 {
+  position: absolute;
+  right: 50rem;
+  bottom: -10rem;
+}
+.reviews-title {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 3.3rem;
+  text-align: center;
+  font-weight: 1000;
+  margin-bottom: 8rem;
+}
+.reviews-title::after {
+  content: '';
+  display: block;
+  background-color: #18a7d0;
+  margin-top: 1rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.8rem;
+  width: 5.6rem;
+  height: 0.5rem;
+}
+.reviews-people {
+  background: #fff;
+  border: 1px solid #3eb7b7;
+  border-radius: 5px;
+  padding: 2rem 1rem 3rem 3rem;
+  margin: 0 -2.5rem 0.5rem 0;
+}
+.reviews-people .avatar {
+  display: inline-block;
+}
+.reviews-people-title {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2rem;
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 1.8rem;
+}
+.reviews-people-text {
+  font-family: 'HelveticaNeueCyr_roman', sans-serif;
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+}
+/* Scheme */
+.scheme {
+  padding: 10rem 0 8rem 0;
+}
+.scheme-title {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 1000;
+  margin-bottom: 11rem;
+}
+.scheme-title::after {
+  content: '';
+  display: block;
+  background-color: #18a7d0;
+  margin-top: 1rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.8rem;
+  width: 5.6rem;
+  height: 0.5rem;
+}
+.scheme-block .block-img {
+  padding-left: 6rem;
+}
+.scheme-block .block-img-1 {
+  margin-top: 1rem;
+}
+.scheme-block .block-img-3 {
+  margin-top: -2rem;
+}
+.scheme-block .block-img-4 {
+  margin-top: -1.5rem;
+}
+.scheme-block-text {
+  font-family: 'HelveticaNeueCyr_roman', sans-serif;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+}
+/* Order-2 */
+.order-2 {
+  background: url(../img/order-2-bg.jpg) center center no-repeat,
+              url(../img/order-2-bg.webp) center center no-repeat;
+  background-size: cover;
+}
+/* question */
+.question {
+  padding: 6rem 0 6rem 0;
+  text-align: center;
+}
+.question-title {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 1000;
+}
+.question-subtitle {
+  font-family: 'HelveticaNeueCyr_reg', sans-serif;
+  font-size: 2rem;
+  color: #000;
+  border-bottom: 1px dashed #000;
+}
+.question-subtitle:hover {
+  text-decoration: none;
+  outline: none;
+  color: #98cd34;
+  border-bottom: 1px dashed #98cd34;
+}
+/* main-2 */
+.main-2 {
+  background: none;
+}
+.main-2 .cristal-7 {
+  position: absolute;
+  left: 0px;
+  margin-top: -26rem;
+}

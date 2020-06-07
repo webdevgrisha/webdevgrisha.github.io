@@ -1,0 +1,94 @@
+.thanks{
+	padding: 15rem 0 22rem 0 ;
+	text-align: center;
+	color: white;
+}
+.thanks-title {
+	font-family: 'HelveticaNeueCyr_bold', sans-serif;
+	font-size: 4rem;
+}
+.thanks-subtitle{
+	font-family: 'HelveticaNeueCyr_reg', sans-serif;
+	font-size: 2.5rem;
+	line-height: 1.2;
+	margin-top: 2.5rem;
+	margin-bottom: 5rem;
+}
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.thanks-number{
+	line-height: 2.5;
+}
+@media(max-width: 530px){
+	.thanks{
+		padding: 10rem 0 22rem 0 ;
+	}
+	.thanks-number{
+		line-height: 1.5;
+		text-align: center;
+		display: block;
+	}
+	.thanks-title {
+		font-size: 3.8rem;
+	}
+	.thanks-subtitle{
+		font-size: 2.1rem;
+		margin-top: 2rem;
+	}
+}
+@media(max-width: 450px){
+	.thanks{
+		padding: 10rem 0 18rem 0 ;
+	}
+	.thanks-title {
+		font-size: 3.5rem;
+	}
+	.thanks-subtitle{
+		font-size: 1.6rem;
+		margin-top: 2rem;
+	}
+}
+@media(max-width: 400px){
+	.thanks{
+		padding: 8rem 0 15rem 0 ;
+	}
+	.thanks-title {
+		font-size: 3.3rem;
+	}
+	.thanks-subtitle{
+		font-size: 1.5rem;
+		margin-top: 1.8rem;
+	}
+}
+@media(max-width: 360px){
+	.thanks{
+		padding: 7rem 0 15rem 0 ;
+	}
+	.thanks-title {
+		font-size: 3.2rem;
+	}
+	.thanks-subtitle{
+		font-size: 1.4rem;
+		margin-top: 2rem;
+	}
+	.thanks-logo{
+		font-size: 1.4rem;
+	}
+}
+@media(max-width: 320px){
+	.thanks{
+		padding: 7rem 0 15rem 0 ;
+	}
+	.thanks-title {
+		font-size: 3rem;
+	}
+	.thanks-subtitle{
+		font-size: 1.2rem;
+		margin-top: 2rem;
+	}
+	.thanks-logo{
+		font-size: 1.3rem;
+	}
+}

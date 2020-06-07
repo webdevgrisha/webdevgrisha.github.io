@@ -1,0 +1,1585 @@
+/* Media запросы */
+@media (max-width: 10000px) {
+  .popup-video {
+    min-width: 60rem;
+  }
+}
+@media (max-width: 1920px) {
+  .opportunities .crystal-1 {
+    right: 30rem;
+    margin-top: 45rem;
+  }
+  .opportunities .crystal-2 {
+    left: 45rem;
+    margin-top: 27rem;
+  }
+  .opportunities-two .opportunities-game {
+    margin-left: 7rem;
+  }
+  .opportunities-two .opportunities-game .GTA-5 img {
+    margin: -5rem -4rem 0 1rem;
+  }
+  .opportunities-two .crystal-3 {
+    left: 30rem;
+    margin-top: 20rem;
+  }
+  .opportunities-two .crystal-4 {
+    right: 35rem;
+    margin-top: 15rem;
+  }
+  .reviews .cristal-6 {
+    right: 19rem;
+    bottom: -50rem;
+  }
+  .popup-video {
+    min-width: 60rem;
+  }
+}
+@media (max-width: 1366px) {
+  .opportunities .crystal-1 {
+    right: 0rem;
+    margin-top: 45rem;
+  }
+  .opportunities .crystal-2 {
+    left: 10rem;
+    margin-top: 30rem;
+  }
+  .opportunities-two .opportunities-game .GTA-5 img {
+      margin: -6rem 9rem 0 -1rem;
+      width: 50rem;
+  }
+  .opportunities-two .extreme-img {
+    width: 61rem;
+  }
+  .opportunities-two .crystal-3 {
+    left: 5rem;
+  }
+  .opportunities-two .crystal-4 {
+    right: 2rem;
+    margin-top: 15rem;
+  }
+  .compatibility-vr {
+    margin-top: -1rem;
+  }
+  .compatibility-vr img {
+    width: 50rem;
+  }
+  .reviews .cristal-6 {
+    display: none;
+  }
+  .main-2 .cristal-7 {
+    margin-top: -22rem;
+  }
+}
+@media (max-width: 1200px) {
+  .phone {
+    margin-left: 4.8rem;
+  }
+  .set-img img {
+    width: 45rem;
+  }
+  .set-title h2 {
+    font-size: 3rem;
+    margin-top: 7rem ;
+  }
+  .set-title p {
+    margin-bottom: 20rem;
+    font-size: 1.5rem;
+  }
+  .order {
+    max-height: none;
+  }
+  .order .notes {
+    font-size: 1.6rem;
+  }
+  .order .notes-2 {
+    margin: 0 0 0 3rem;
+  }
+  .form {
+    padding: 3.5rem 4.5rem 3rem 4.5rem;
+  }
+  .opportunities-two .crystal-3 {
+    left: 3rem;
+  }
+  .opportunities-two .crystal-4 {
+    right: 1rem;
+    margin-top: 20rem;
+  }
+  .work-text p {
+    font-family: 'HelveticaNeueCyr_roman', sans-serif;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1100px) {
+  .phone-link {
+    margin-left: 0.1rem;
+  }
+  .main-content {
+    background: url(../img/bg-phone.png) 50rem 22rem no-repeat;
+  }
+  .set-title p {
+    font-size: 1.8rem;
+    margin-bottom: -5rem;
+  }
+  .set-img img {
+    width: 45rem;
+    margin-bottom: 20rem;
+  }
+  .set-price {
+    margin-top: -25rem;
+  }
+  .opportunities-title {
+    font-size: 2.2rem;
+  }
+  .opportunities-text {
+    font-size: 1.6rem;
+  }
+  .opportunities .crystal-1 {
+    margin-top: 50rem;
+  }
+  .opportunities .crystal-2 {
+    left: 9rem;
+    margin-top: 25rem;
+  }
+  .opportunities-2 .shark img {
+    margin-left: -1rem;
+    margin-top: -5rem;
+  }
+  .opportunities .order {
+    max-height: none;
+  }
+  .opportunities-two .extreme-img {
+    width: 50rem;
+  }
+  .opportunities-two .opportunities-game .GTA-5 img {
+    margin: -4rem 0 0 -1rem;
+    width: 45rem;
+  }
+  .work {
+    padding: 3rem 0 10rem 0;
+  }
+  .compatibility .cristal-5 {
+    display: none;
+  }
+  .compatibility-title h2 {
+    margin: 2rem 0 5rem 0;
+  }
+  .compatibility .telefon {
+    margin-right: 4.5rem;
+  }
+  .compatibility .telefon img {
+    width: 10rem;
+  }
+  .compatibility .telefon-text p {
+    font-size: 1.6rem;
+  }
+  .compatibility-vr {
+    margin-top: -1rem;
+  }
+  .compatibility-vr img {
+    width: 40rem;
+  }
+  .compatibility-vr-text {
+    font-size: 1.6rem;
+  }
+  .games .shooter {
+    margin-top: 5.1rem;
+  }
+  .games-img {
+    width: 37rem;
+    margin: 2rem 0 3rem -10rem;
+  }
+  .games-text {
+    font-size: 1.4rem;
+  }
+  .games-btn {
+    margin-top: 3rem;
+  }
+  .reviews-people {
+    padding: 2rem 0rem 3rem 2rem;
+    margin: 0 -2.5rem 1.5rem 0;
+    max-width: 45rem;
+  }
+  .reviews-people .avatar {
+    width: 10rem;
+  }
+  .reviews-people-title {
+    font-size: 1.7rem;
+  }
+  .reviews-people-text {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+  }
+  .scheme {
+    padding: 7rem 0 6rem 0;
+  }
+  .scheme-block .block-img {
+    padding-left: 6rem;
+  }
+  .scheme-block .block-img-1 {
+    margin-left: -2rem;
+  }
+  .scheme-block .block-img-2 {
+    margin-left: -2rem;
+  }
+  .scheme-block .block-img-3 {
+    margin-left: -0.5rem;
+  }
+  .scheme-block .block-img-4 {
+    margin-left: -1.5rem;
+  }
+  .scheme-block-text {
+    font-family: 'HelveticaNeueCyr_roman', sans-serif;
+    font-size: 1.4rem;
+  }
+  .popup-video {
+    min-width: 55rem;
+    min-height: 30rem;
+  }
+}
+@media (max-width: 992px) {
+  .phone {
+    margin-left: 4.2rem;
+  }
+  .logo-img {
+    padding: 0rem 1rem 0 0;
+    vertical-align: baseline;
+  }
+  .logo-text {
+    font-family: 'HelveticaNeueCyr_reg', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+  }
+  .set-price {
+    margin-top: -25rem;
+  }
+  .opportunities {
+    padding-bottom: 3rem;
+  }
+  .opportunities .iron-man {
+    width: 40rem;
+  }
+  .opportunities .shark img {
+    width: 35rem;
+  }
+  .crystal-1 {
+    display: none;
+  }
+  .crystal-2 {
+    display: none;
+  }
+  .order-btn{
+    font-size: 1.6rem;
+  }
+  .opportunities-two .extreme-img {
+    width: 50rem;
+  }
+  .opportunities-two .opportunities-game {
+    margin-top: 10rem;
+  }
+  .opportunities-two .crystal-3 {
+    display: none;
+  }
+  .opportunities-two .crystal-4 {
+    display: none;
+  }
+  .games {
+    padding: 6rem 0 6rem 0;
+  }
+  .games .shooter {
+    margin-top: 5.3rem;
+  }
+  .main-2 .cristal-7 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .main-content {
+    background: url(../img/bg-phone.png) 45rem 20rem no-repeat,
+                url(../img/bg-phone.webp) 45rem 20rem no-repeat;
+  }
+  .main-title h1 {
+    margin: 8rem 0 0 0;
+    font-size: 3.5rem;
+  }
+  .logo-img {
+    padding: 0rem 1.5rem 0 0;
+  }
+  .logo-text {
+    font-size: 1.8rem;
+  }
+  .phone-number {
+    display: inline-block;
+  }
+  .phone-link {
+    font-weight: 600;
+  }
+  .set-title p {
+    font-size: 1.5rem;
+    margin-bottom: -4rem;
+  }
+  .set-img img {
+    width: 50rem;
+    margin-bottom: 20rem;
+  }
+  .set-price {
+    margin-top: -16rem;
+  }
+  .set-title p {
+    font-size: 1.4rem;
+  }
+  .opportunities .iron-man {
+    width: 30rem;
+  }
+  .opportunities-1 {
+    margin-top: 5rem;
+  }
+  .opportunities-1 .film img {
+    margin: 0 0 -7rem -5rem;
+  }
+  .opportunities-title {
+    font-size: 2rem;
+  }
+  .opportunities-text {
+    font-size: 1.4rem;
+  }
+  .opportunities-2 {
+    margin: 0 0 2rem 5rem;
+  }
+  .opportunities-2 .shark img {
+    margin: -2rem 0 0 -5rem;
+    width: 28rem;
+  }
+  .opportunities-2 .travel img {
+    margin: 0 0 -7rem -5rem;
+  }
+  .opportunities .crystal-1 {
+    display: none;
+  }
+  .opportunities .crystal-2 {
+    display: none;
+  }
+  .order .order-title {
+    font-size: 3.3rem;
+  }
+  .order-line {
+    width: 100%;
+  }
+  .order .order-text p {
+    font-size: 1.3rem;
+  }
+  .order .notes {
+    font-size: 1.1rem;
+  }
+  .order .notes-2 {
+    margin: 0 0 0 2rem;
+  }
+  .order .delta {
+    height: 6.9rem;
+    left: 34.4rem;
+    top: 15.3rem;
+  }
+  .order-form .form-btn {
+    font-size: 1.6rem;
+  }
+  .form {
+    padding: 2rem 3rem 3rem 2rem;
+  }
+  .opportunities-two .extreme {
+    margin-top: 8rem;
+  }
+  .opportunities-two .extreme-img {
+    margin: -3rem 0rem 0 -4.5rem;
+    width: 35rem;
+  }
+  .opportunities-two .opportunities-game {
+    margin-top: 6rem;
+  }
+  .opportunities-two .opportunities-game .GTA-5 img {
+    margin: -2rem 0 0 -7rem;
+    width: 35rem;
+  }
+  .work .media {
+    display: block;
+    margin-top: -2.5rem;
+  }
+  .work-text p {
+    font-family: 'HelveticaNeueCyr_roman', sans-serif;
+    margin-top: 1.5rem;
+    font-size: 1.9rem;
+  }
+  .work-title {
+    margin-bottom: -4rem;
+  }
+  .compatibility-title h2 {
+    margin: 2rem 0 5rem 0;
+  }
+  .compatibility .telefon {
+    margin-right: 2rem;
+  }
+  .compatibility .telefon img {
+    width: 8rem;
+  }
+  .compatibility .telefon-text p {
+    font-size: 1.3rem;
+  }
+  .compatibility-vr {
+    margin-top: 0;
+  }
+  .compatibility-vr img {
+    width: 30rem;
+  }
+  .compatibility-vr-text {
+    font-size: 1.3rem;
+  }
+  .video {
+    padding: 6rem;
+  }
+  .video-title {
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .games-title {
+    font-size: 3.4rem;
+  }
+  .games .shooter {
+    margin-top: 4.7rem;
+  }
+  .games-img {
+    width: 30rem;
+    margin: 2rem 0 3rem -8rem;
+  }
+  .games-text {
+    font-size: 1.4rem;
+  }
+  .games-btn {
+    margin-top: 3rem;
+  }
+  .reviews {
+    padding: 6rem 0 9rem 0;
+  }
+  .reviews-people {
+    padding: 2rem 0rem 2rem 1rem;
+    margin: 0 -2.5rem 1.5rem 0;
+    max-width: 33rem;
+  }
+  .reviews-people .avatar {
+    width: 9rem;
+  }
+  .reviews-people-title {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+  .reviews-people-text {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+  }
+  .scheme {
+    padding: 6rem 0 6rem 0;
+  }
+  .scheme-title {
+    margin-bottom: 8rem;
+  }
+  .scheme-block .block-img-1 {
+    margin-left: 4.5rem;
+  }
+  .scheme-block .block-img-2 {
+    margin-top: 0.5rem;
+    margin-left: 4rem;
+  }
+  .scheme-block .block-img-3 {
+    margin-top: 2rem;
+    margin-left: 6rem;
+  }
+  .scheme-block .block-img-4 {
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+  }
+  .scheme-block-text {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 767px) {
+  .main-title h1 {
+    font-size: 2.6rem;
+  }
+  .main-subtitle h2 {
+    font-size: 2.5rem;
+  }
+  .set-1-price strong {
+    font-size: 2.5rem;
+  }
+  .set-1-price p {
+    font-size: 2.3rem;
+  }
+  .set-2 {
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+  }
+  .set-price {
+    font-size: 1.7rem;
+  }
+  .set-price h3 {
+    font-size: 2.5rem;
+  }
+  .set-1 ul {
+    display: inline-block;
+    margin-bottom: 0rem;
+  }
+  .reviews {
+    padding: 4rem 0 3rem 0;
+  }
+  .reviews-people {
+    padding: 2rem 0rem 2rem 2rem;
+    margin: 0 0rem 1.5rem 0;
+    max-width: none;
+  }
+  .reviews-people .avatar {
+    width: 10rem;
+  }
+  .reviews-people-title {
+    margin-left: 2rem;
+    font-size: 1.8rem;
+  }
+  .reviews-people-text {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 530px) {
+  .logo-img {
+    padding: 0rem 1rem 0 0;
+  }
+  .logo-text {
+    font-size: 1.9rem;
+  }
+  .main-title h1 {
+    font-size: 2.4rem;
+  }
+  .main-subtitle h2 {
+    font-size: 2rem;
+  }
+  .set-img img {
+    width: 45rem;
+  }
+  .set-title p {
+    font-size: 1.4rem;
+  }
+  .set-btn {
+    font-size: 1.5rem;
+  }
+  .set-2 {
+       margin-left: 0rem; 
+    }
+    .set-1 ul {
+        margin-bottom: 1rem;
+    }
+  .opportunities .iron-man {
+    width: 100%;
+    margin: 0 -5rem -4rem -5rem;
+  }
+  .opportunities-1 {
+    margin: 4rem 0 0 5rem;
+  }
+  .opportunities-1 .film img {
+    margin: 0 0 -7rem -5rem;
+  }
+  .opportunities-title {
+    font-size: 2rem;
+  }
+  .opportunities-text {
+    font-size: 1.2rem;
+  }
+  .opportunities-2 {
+    margin: 20rem 0 2rem 5rem;
+  }
+  .opportunities-2 .shark img {
+    margin: -33rem 0 0 -3rem;
+    width: 100%;
+    display: block;
+  }
+  .opportunities-2 .travel img {
+    margin: 0 0 -7rem -5rem;
+  }
+  .opportunities-2 .travel .travel h2 p {
+    margin: 10rem;
+  }
+  .order {
+    padding: 0 0 2rem 0;
+  }
+  .order .order-title {
+    font-size: 3.4rem;
+  }
+  .order-line {
+    width: 40rem;
+  }
+  .order .order-text p {
+    font-size: 1.4rem;
+  }
+  .order .notes {
+    font-size: 1.1rem;
+  }
+  .order .delta {
+    height: 5.4rem;
+    left: 41.3rem;
+    top: 15.5rem;
+  }
+  .order-form {
+    max-width: 37rem;
+    margin: -47rem 0 0 0rem;
+  }
+  .order .notes {
+    margin-top: 43rem;
+    font-size: 1.4rem;
+  }
+  .form {
+    min-width: 35rem;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+  }
+  .opportunities-game {
+    margin-top: 20rem;
+  }
+  .opportunities-game .GTA-5 img {
+    margin: -32rem 0 0 1rem;
+    width: 37rem;
+  }
+  .work-img {
+    width: 19rem;
+  }
+  .work-img-vr {
+    margin-top: 14.5rem;
+  }
+  .work-img-pult {
+    margin-top: 4.5rem;
+  }
+  .work-text p {
+    font-size: 1.3rem;
+  }
+  .work .media .circle-border {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+  .compatibility {
+    padding: 2rem 4.5rem 4rem 5rem;
+  }
+  .compatibility-title h2 {
+    font-size: 3.3rem;
+    text-align: center;
+    margin: 1rem 0 5rem 0;
+  }
+  .compatibility .telefon {
+    margin-top: 25rem;
+    margin-right: 3rem;
+  }
+  .compatibility .telefon img {
+    width: 10rem;
+  }
+  .compatibility .telefon-text p {
+    font-size: 1.3rem;
+  }
+  .compatibility-vr {
+    margin-top: -50rem;
+  }
+  .compatibility-vr img {
+    width: 35rem;
+  }
+  .compatibility-vr-text {
+    font-size: 1.5rem;
+  }
+  .video {
+    padding: 5rem 0 5rem 0;
+    background:  url(../img/video/video-bg.jpg) center center no-repeat,
+                 url(../img/video/video-bg.webp) center center no-repeat;
+    background-size: cover;
+  }
+  .video-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .parallax-window{
+    background: none;
+  }
+  .games {
+    padding: 6rem 2rem 6rem 2rem;
+  }
+  .games-title {
+    font-size: 3.5rem;
+  }
+  .games .shooter {
+    margin-top: 3rem;
+  }
+  .games-img {
+    width: 35rem;
+    margin: 2rem 0 3rem -2rem;
+  }
+  .games-text {
+    font-size: 1.5rem;
+  }
+  .games .game-title h3 {
+    font-size: 2.5rem;
+  }
+  .games-btn {
+    margin-top: 3rem;
+  }
+  .scheme {
+    padding: 6rem 9rem 6rem 9rem;
+  }
+  .scheme-title {
+    margin-bottom: 6.5rem;
+  }
+  .scheme-block .block-img-1 {
+    margin-left: 3.5rem;
+  }
+  .scheme-block .block-img-2 {
+    margin-top: 0.5rem;
+    margin-left: 3.5rem;
+  }
+  .scheme-block .block-img-3 {
+    margin-top: 2rem;
+    margin-left: 6rem;
+  }
+  .scheme-block .block-img-4 {
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+  }
+  .scheme-block-text {
+    font-size: 1.6rem;
+  }
+  .popup-video {
+    min-width: 32rem;
+  }
+  .box:before {
+      content: '';
+      position: absolute;
+      display: none;
+  }
+}
+@media (max-width: 460px) {
+  .logo-img {
+    padding: 0rem 1rem 0 0;
+  }
+  .logo-text {
+    font-size: 1.6rem;
+  }
+  .main-img {
+    width: 60%;
+    margin: 5rem 0 4rem -1rem;
+  }
+  .main-content {
+    background: url(../img/bg-phone.png) 29rem 20rem no-repeat,
+                url(../img/bg-phone.webp) 29rem 20rem no-repeat;
+    background-size: 50%;
+  }
+  .button {
+    background-color: #94ca2d;
+    padding: 1.5rem 3rem;
+  }
+  .set-img img {
+    width: 40rem;
+  }
+  .set-title p {
+    font-size: 1.4rem;
+  }
+  .set-btn {
+    font-size: 1.2rem;
+  }
+  .opportunities-1 {
+    margin: 4rem 0 0 6rem;
+  }
+  .opportunities-2 {
+    margin: 20rem 0 2rem 6rem;
+  }
+  .opportunities-2 .shark img {
+    margin: -35rem 0 0 -3rem;
+  }
+  .order-line {
+    width: 35rem;
+  }
+  .order .order-text p {
+    font-size: 1.2rem;
+  }
+  .order .delta {
+    height: 4.8rem;
+    left: 36.4rem;
+    top: 15.5rem;
+  }
+  .order .notes-2 {
+    margin: 0 0 0 1.5rem;
+  }
+  .opportunities-two .extreme {
+    margin-top: 8rem;
+  }
+  .opportunities-two .extreme .opportunities-game {
+    margin-top: 20rem;
+  }
+  .opportunities-two .extreme .opportunities-game .GTA-5 img {
+    margin: -32rem 0 0 0rem;
+    width: 35rem;
+  }
+  .compatibility {
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  .compatibility-title h2 {
+    font-size: 3.3rem;
+    text-align: center;
+    margin: 1rem 0 5rem 0;
+  }
+  .compatibility .telefon {
+    margin-top: 25rem;
+    margin-right: 1.5rem;
+  }
+  .compatibility .telefon img {
+    width: 10rem;
+  }
+  .compatibility .telefon-text p {
+    font-size: 1.3rem;
+  }
+  .compatibility-vr {
+    margin-top: -50rem;
+  }
+  .compatibility-vr img {
+    width: 35rem;
+  }
+  .compatibility-vr-text {
+    font-size: 1.4rem;
+  }
+  .video {
+    padding: 5rem 0 5rem 0;
+  }
+  .video-title {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+  .video .play-btn {
+    font-size: 2rem;
+  }
+  .scheme {
+    padding: 6rem 4rem 6rem 4rem;
+  }
+  .scheme-title {
+    margin-bottom: 6.5rem;
+  }
+  .scheme-block .block-img-1 {
+    margin-left: 4.5rem;
+  }
+}
+@media (max-width: 420px) {
+  .logo-img {
+    width: 7rem;
+    padding: 0rem 1rem 0 0;
+  }
+  .logo-text {
+    font-size: 1.5rem;
+  }
+  .phone {
+    margin-left: 1.8rem;
+  }
+  .phone-number {
+    font-size: 2.1rem;
+  }
+  .phone-link {
+    margin-left: 2.5rem;
+  }
+  .main-title h1 {
+    margin: 5rem 0 0 0;
+    font-size: 1.9rem;
+  }
+  .main-subtitle h2 {
+    font-size: 1.8rem;
+  }
+  .main-content {
+    background: url(../img/bg-phone.png) 23rem 21rem no-repeat,
+                url(../img/bg-phone.webp) 23rem 21rem no-repeat;
+    background-size: 65%;
+  }
+  .set-img img {
+    width: 37rem;
+  }
+  .set-title p {
+    font-size: 1.3rem;
+  }
+  .set-btn {
+      font-size: 1.1rem;
+  }
+  .opportunities-two .extreme-img {
+    margin: -5rem 1rem 0 -10rem;
+    width: 38rem;
+  }
+  .opportunities-two .opportunities-game {
+    margin-top: 20rem;
+  }
+  .opportunities-two .opportunities-game .GTA-5 img {
+    margin: -30rem 0 0 -3rem;
+    width: 35rem;
+  }
+  .order .notes-img {
+      margin: 0.5rem 0rem 0 0;
+  }
+  .order-line {
+      width: 34rem;
+  }
+  .order .order-text p {
+      padding: 0.5rem 0 0.5rem 0.5rem;
+      font-size: 1.5rem;
+  }
+  .order .delta {
+      height: 7.5rem;
+      left: 35.4rem;
+      top: 15.5rem;
+  }
+  .order .notes {
+      font-size: 1.3rem;
+  }
+  .compatibility {
+    padding: 2rem 1.5rem 4rem 1.5rem;
+  }
+  .compatibility-title h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0 5rem 0;
+  }
+  .compatibility .telefon {
+    margin-top: 25rem;
+    margin-right: 1.5rem;
+  }
+  .compatibility .telefon img {
+    width: 9rem;
+  }
+  .compatibility .telefon-text p {
+    font-size: 1.3rem;
+  }
+  .compatibility-vr {
+    margin-top: -50rem;
+  }
+  .compatibility-vr img {
+    width: 35rem;
+  }
+  .compatibility-vr-text {
+    font-size: 1.3rem;
+  }
+  .video-title {
+    font-size: 2.5rem;
+  }
+  .video .play-btn {
+    font-size: 1.8rem;
+  }
+  .reviews-people-text {
+    font-size: 1.4rem;
+  }
+  .games .shooter {
+      margin-top: 3rem;
+      margin-left: -5.8rem;
+  }
+  .scheme {
+    padding: 6rem 4rem 6rem 4rem;
+  }
+  .scheme-title {
+    margin-bottom: 6.5rem;
+    font-size: 2.7rem;
+  }
+  .scheme-block .block-img-1 {
+    margin-left: 3rem;
+  }
+  .scheme-block .block-img-2 {
+    margin-left: 3rem;
+  }
+  .scheme-block .block-img-3 {
+    margin-left: 5.5rem;
+  }
+  .scheme-block .block-img-4 {
+    margin-left: 4rem;
+  }
+  .scheme-block-text {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 400px) {
+  .logo-img {
+    width: 7rem;
+    padding: 0rem 0.5rem 0 0;
+  }
+  .logo-text {
+    font-size: 1.4rem;
+  }
+  .phone {
+    margin-left: 1.8rem;
+  }
+  .phone-number {
+    font-size: 2rem;
+  }
+  .phone-link {
+    margin-left: 2rem;
+  }
+  .main-title h1 {
+    margin: 4rem 0 0 0;
+    font-size: 1.7rem;
+  }
+  .main-subtitle h2 {
+    font-size: 1.5rem;
+  }
+  .main-content {
+    background: url(../img/bg-phone.png) 20rem 21rem no-repeat,
+                url(../img/bg-phone.webp) 20rem 21rem no-repeat;
+    background-size: 65%;
+  }
+  .set-img img {
+    width: 34rem;
+  }
+  .set-title p {
+    font-size: 1.4rem;
+    margin-bottom: -4rem;
+  }
+  .set-btn {
+    font-size: 1.1rem;
+  }
+  .order .notes {
+    font-size: 1.2rem;
+    margin-top: 42rem;
+  }
+  .order .order-form {
+    margin: -46rem 0 0 0rem;
+  }
+  .opportunities-two .opportunities-game {
+    margin-top: 18rem;
+  }
+  .opportunities-two .opportunities-game .GTA-5 img {
+    margin: -29rem 0 0 -2rem;
+    width: 29rem;
+  }
+  .order .order-title {
+      font-size: 3.3rem;
+  }
+  .work-img {
+    width: 17rem;
+  }
+  .work-img-vr {
+    margin-top: 13.5rem;
+  }
+  .work-img-pult {
+    margin-top: 4.7rem;
+  }
+  .work-text p {
+    font-size: 1.1rem;
+  }
+  .compatibility {
+    padding: 0rem 1.5rem 4rem 1.5rem;
+  }
+  .compatibility-title h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 1rem 0 5rem 0;
+  }
+  .compatibility .telefon {
+    margin-top: 21rem;
+    margin-right: 1.5rem;
+  }
+  .compatibility .telefon img {
+    width: 8.5rem;
+  }
+  .compatibility .telefon-text p {
+    font-size: 1.3rem;
+  }
+  .compatibility-vr {
+    margin-top: -44rem;
+  }
+  .compatibility-vr img {
+    width: 30rem;
+  }
+  .compatibility-vr-text {
+    font-size: 1.2rem;
+  }
+  .video-title {
+    font-size: 2.5rem;
+  }
+  .games {
+    padding: 6rem 2rem 6rem 2rem;
+  }
+  .games-title {
+    font-size: 3.2rem;
+  }
+  .games-img {
+    margin: 2rem 0 3rem -5rem;
+  }
+  .reviews {
+    padding: 4rem 0 3rem 0;
+  }
+  .reviews-title {
+    margin-bottom: 5rem;
+  }
+  .reviews-people {
+    padding: 2rem 0rem 2rem 2rem;
+    margin: 0rem 0rem 1.5rem 0;
+    max-width: none;
+  }
+  .reviews-people .avatar {
+    width: 8rem;
+  }
+  .reviews-people-title {
+    margin-left: 1.5rem;
+    font-size: 1.6rem;
+  }
+  .reviews-people-text {
+    font-size: 1.3rem;
+  }
+  .scheme {
+    padding: 6rem 3rem 6rem 3rem;
+  }
+  .scheme-title {
+    margin-bottom: 6rem;
+  }
+  .scheme-block .block-img-1 {
+    margin-left: 2rem;
+  }
+  .scheme-block .block-img-2 {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .scheme-block .block-img-3 {
+    margin-left: 4.5rem;
+  }
+  .scheme-block .block-img-4 {
+    margin-left: 3rem;
+  }
+  .scheme-block-text {
+    font-size: 1.6rem;
+  }
+  /* question */
+  .question {
+    padding: 4rem 0 4rem 0;
+  }
+  .question-title {
+    font-size: 3rem;
+  }
+  .question-subtitle {
+    font-family: 'HelveticaNeueCyr_reg', sans-serif;
+    font-size: 1.7rem;
+  }
+}
+@media(max-width: 380px){
+  .set-btn {
+    font-size: 1rem;
+  }
+  .order .notes {
+      font-size: 1.2rem;
+  }
+  .order .notes-2 {
+      margin: 0 0 0 0.5rem;
+  }
+  .form {
+       min-width: 32rem; 
+  }
+  .opportunities-title {
+      font-size: 1.8rem;
+  }
+  .opportunities-text {
+    font-size: 1.2rem;
+  }
+  .compatibility .telefon img {
+    width: 8rem;
+  }
+   .order-line {
+      width: 31rem;
+  }
+  .order .order-text p {
+      font-size: 1.4rem;
+  }
+  .order .delta {
+      height: 7.5rem;
+      left: 32.4rem;
+      top: 15.5rem;
+  }
+}
+@media (max-width: 360px) {
+  .logo-img {
+    width: 6rem;
+  }
+  .logo-text {
+    font-size: 1.4rem;
+  }
+  .phone {
+    margin-left: 1.8rem;
+  }
+  .phone-number {
+    font-size: 1.5rem;
+  }
+  .phone-link {
+    font-family: 'HelveticaNeueCyr_reg', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 2.3rem;
+  }
+  .main-title h1 {
+    margin: 3rem 0 0 0;
+    font-size: 1.5rem;
+  }
+  .main-subtitle h2 {
+    font-size: 1.3rem;
+  }
+  .main-content {
+    background: url(../img/bg-phone.png) 20rem 20rem no-repeat,
+                url(../img/bg-phone.webp) 20rem 20rem no-repeat;
+    background-size: 65%;
+  }
+  .button {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+  }
+  .main-img {
+    margin: 3rem 0 2rem -1rem;
+  }
+  .main-content {
+    background: url(../img/bg-phone.png) 18rem 14rem no-repeat,
+                url(../img/bg-phone.png) 18rem 14rem no-repeat;
+    background-size: 65%;
+  }
+  .set-img img {
+    width: 29rem;
+  }
+  .set-title p {
+    font-size: 1.3rem;
+  }
+  .set-btn {
+    font-size: 1rem;
+  }
+  .opportunities {
+    padding: 2.5rem 0 2.5rem 0;
+  }
+  .opportunities .iron-man {
+    width: 100%;
+    margin: 0 -5rem -4rem -5rem;
+  }
+  .opportunities-1 {
+    margin: 4rem 0 0 4rem;
+  }
+  .opportunities-1 .film img {
+    width: 3rem;
+    margin: -2rem 0 -7rem -3.5rem;
+  }
+  .opportunities-title {
+    font-size: 1.7rem;
+  }
+  .opportunities-text {
+    font-size: 1.2rem;
+  }
+  .opportunities-2 {
+    margin: 18rem 0 2rem 4rem;
+  }
+  .opportunities-2 .shark img {
+    margin: -30rem 0 0 -2rem;
+    width: 100%;
+  }
+  .opportunities-2 .travel img {
+    width: 3rem;
+    margin: -2rem 0 -7rem -3.5rem;
+  }
+  .order .order-title {
+    font-size: 3rem;
+  }
+  .order-line {
+    width: 30rem;
+  }
+  .order .order-text p {
+    font-size: 1.3rem;
+  }
+  .order .delta {
+    height: 6.6rem;
+    left: 31.4rem;
+    top: 14.7rem;
+  }
+  .order .order-form {
+    margin: -43rem 0 0 0rem;
+  }
+  .order .notes {
+    margin-top: 40rem;
+    font-size: 1.1rem;
+  }
+  .form {
+    min-width: 30rem;
+  }
+  .opportunities-two .extreme {
+    margin-top: 8rem;
+  }
+  .opportunities-two .extreme-img {
+    margin: -7rem 0rem 0 -6.5rem;
+    width: 30rem;
+  }
+  .opportunities-two .opportunities-game {
+    margin-top: 16rem;
+    margin-left: 4rem;
+  }
+  .opportunities-two .opportunities-game .GTA-5 img {
+    margin: -26rem 0 0 -3rem;
+    width: 30rem;
+  }
+  .work-img {
+    width: 16rem;
+  }
+  .work-img-vr {
+    margin-top: 13.5rem;
+  }
+  .work-img-pult {
+    margin-top: 4.7rem;
+  }
+  .work-text p {
+    font-size: 1rem;
+  }
+  .compatibility {
+    padding: 0rem 1rem 4rem 1rem;
+  }
+  .compatibility-title h2 {
+    font-size: 2.7rem;
+  }
+  .compatibility .telefon {
+    margin-top: 21rem;
+    margin-right: 1rem;
+  }
+  .compatibility .telefon img {
+    width: 8rem;
+  }
+  .compatibility .telefon-text p {
+    font-size: 1.3rem;
+  }
+  .compatibility-vr {
+    margin-top: -44rem;
+  }
+  .compatibility-vr img {
+    width: 28rem;
+  }
+  .compatibility-vr-text {
+    font-size: 1.1rem;
+  }
+  .games-title {
+    font-size: 2.7rem;
+  }
+  .games-img {
+    margin: 2rem 0 3rem -6rem;
+  }
+  .games-btn .button {
+    padding: 1.5rem 3rem;
+  }
+  .games .game-title h3 {
+    font-size: 2rem;
+  }
+  .reviews-people {
+    padding: 2rem 0rem 1rem 2rem;
+  }
+  .reviews-people-text {
+    font-size: 1.3rem;
+  }
+  .scheme {
+    padding: 6rem 1.5rem 6rem 1.5rem;
+  }
+  .scheme-title {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+  }
+  .scheme-block-text {
+    font-size: 1.6rem;
+  }
+  .popup-video {
+    min-width: 25rem;
+  }
+}
+@media (max-width: 320px) {
+  .set-title p {
+    font-size: 1rem;
+  }
+  .logo-text {
+    font-size: 1.2rem;
+  }
+  .logo-img {
+    width: 6rem;
+  }
+  .set-title h2{
+    margin-top: 4rem;
+  }
+  .main-title h1 {
+    font-size: 1.4rem;
+  }
+  .set-btn {
+    font-size: 0.9rem;
+  }
+  .set .set-1-price strong {
+      font-size: 2.2rem;
+  }
+  .opportunities .iron-man {
+    width: 100%;
+    margin: -3.5rem 0rem -3rem -2rem;
+  }
+  .opportunities-1 {
+    margin: 4rem 0 0 4rem;
+  }
+  .opportunities-1 .film img {
+    width: 3rem;
+    margin: -2rem 0 -7rem -3.5rem;
+  }
+  .opportunities-title {
+    font-size: 1.4rem;
+  }
+  .opportunities-text {
+    font-size: 1rem;
+  }
+  .opportunities-2 {
+    margin: 15rem 0 0rem 4rem;
+  }
+  .opportunities-2 .shark img {
+    margin: -26rem 0 0 -2rem;
+  }
+  .order .order-title {
+    font-size: 2.8rem;
+  }
+  .order-line {
+    width: 27rem;
+  }
+  .order .order-text p {
+    padding: 0.5rem 0  0.5rem 0.5rem;
+    font-size: 1.2rem;
+  }
+  .order .delta {
+    height: 6.7rem;
+    left: 28.3rem;
+    top: 14.1rem;
+  }
+  .order .order-title {
+      font-size: 2.7rem;
+  }
+  .order-form {
+    margin: -43rem 0 0 0rem;
+    min-width: 25rem;
+  }
+  .order .notes {
+    margin-top: 40rem;
+    font-size: 1rem;
+  }
+  .order .notes-2 {
+    margin: 0 0 0 0rem;
+  }
+  .form {
+    min-width: 27rem;
+  }
+  .form-title{
+    font-size: 2rem;
+  }
+  .opportunities-two .extreme-img {
+    margin: -8rem 0rem 0 -8rem;
+    width: 30rem;
+  }
+  .opportunities-two .opportunities-game {
+    margin-top: 16rem;
+  }
+  .opportunities-two .opportunities-game .GTA-5 img {
+    margin: -24rem 0 0 -2rem;
+    width: 27rem;
+  }
+  .work-title {
+    font-size: 2.5rem;
+  }
+  .work-img {
+    width: 14rem;
+  }
+  .work-img-vr {
+    margin-top: 12.5rem;
+  }
+  .work-img-pult {
+    margin-top: 5rem;
+  }
+  .work-text p {
+    font-size: 0.9rem;
+  }
+  .compatibility {
+    padding: 0rem 1rem 4rem 1rem;
+  }
+  .compatibility-title h2 {
+    font-size: 2.3rem;
+  }
+  .compatibility .telefon {
+    margin-top: 19rem;
+    margin-right: 1.5rem;
+  }
+  .compatibility .telefon img {
+    width: 6.7rem;
+  }
+  .compatibility .telefon-text p {
+    font-size: 1.3rem;
+  }
+  .compatibility-vr {
+    margin-top: -39rem;
+  }
+  .compatibility-vr img {
+    width: 25rem;
+  }
+  .compatibility-vr-text {
+    font-size: 1rem;
+  }
+  .video {
+    padding: 2.5rem 2rem 2rem 2rem;
+  }
+  .video-title {
+    font-size: 2rem;
+  }
+  .games-title {
+    font-size: 2.7rem;
+  }
+  .games-img {
+    width: 32rem;
+    margin: 2rem 0 3rem -6rem;
+  }
+  .games-btn .button {
+    padding: 1.5rem 3rem;
+  }
+  .games .game-title h3 {
+    font-size: 2rem;
+  }
+  .games-text {
+    font-size: 1.3rem;
+  }
+  .reviews {
+    padding: 4rem 0 3rem 0;
+  }
+  .reviews-title {
+    font-size: 2.8rem;
+    margin-bottom: 5rem;
+  }
+  .reviews-people {
+    padding: 2rem 0rem 1.5rem 2rem;
+    margin: 0rem 0rem 1rem 0;
+    max-width: none;
+  }
+  .reviews-people .avatar {
+    width: 7rem;
+  }
+  .reviews-people-title {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+  }
+  .reviews-people-text {
+    font-size: 1.2rem;
+  }
+  .scheme {
+    padding: 5rem 1rem 5rem 1rem;
+  }
+  .scheme-title {
+    margin-bottom: 5rem;
+  }
+  .scheme-block .block-img-1 {
+    margin-left: 0.5rem;
+  }
+  .scheme-block .block-img-2 {
+    margin-left: 0.5rem;
+  }
+  .scheme-block .block-img-3 {
+    margin-left: 3.5rem;
+  }
+  .scheme-block .block-img-4 {
+    margin-left: 2rem;
+  }
+  .scheme-block-text {
+    font-size: 1.5rem;
+  }
+  .popup-video {
+    min-width: 20rem;
+  }
+}
