@@ -371,7 +371,7 @@ function init() {
 
 
 }
-
+init();
 new Swiper('.swiper-container', {
   loop: true,
   autoplay: {
@@ -381,5 +381,5 @@ new Swiper('.swiper-container', {
   slidesPerColumn: 1,
 })
 
-init();
+
 
